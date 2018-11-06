@@ -53,7 +53,7 @@ var user = db.select('name').from('OUser')
    ).limit(1).one()
    .then(
       function(select){
-         console.loog(
+         console.log(
             'Is the user an instance of User?',
             (user.instanceof User)
          );
